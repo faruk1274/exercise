@@ -1,2 +1,1 @@
-#practice 
-python exercise
+#Python Exercise
