@@ -13,7 +13,7 @@ class ShoppingList:
     def amount(self, index: int):
         return self.items[index - 1][1]
 
-    # ✅ METHOD YOU ADD
+    # METHOD YOU ADD
     def add(self, item: str, amount: int):
         for i in range(len(self.items)):
             if self.items[i][0] == item:
